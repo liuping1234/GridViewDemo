@@ -21,6 +21,9 @@ public class MainActivity extends Activity {
 		adapter = new GridViewAdapter(this, list, listViewList);
 		gridView = (GridView)findViewById(R.id.gridView1);
 		gridView.setAdapter(adapter);
+		
+		
+		///
 	}
 
 	private void addDate(){
